@@ -11,4 +11,13 @@ public class Taxa {
         this.kilometerPris = kilometerPris;
         this.antalKilometer = antalKilometer;
     }
+
+    @Override
+    public String toString() {
+        return "Taxa{" +
+                "taxaselskab='" + taxaselskab + '\'' +
+                ", kilometerPris=" + kilometerPris +
+                ", antalKilometer=" + antalKilometer +
+                '}';
+    }
 }
