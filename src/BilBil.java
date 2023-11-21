@@ -15,4 +15,14 @@ public class BilBil {
         this.antalBåthorn = antalBåthorn;
         this.gikDenIgennemSyn = gikDenIgennemSyn;
     }
+
+
+    @Override
+    public String toString() {
+        return "BilBil{" +
+                "navn='" + navn + '\'' +
+                ", antalBåthorn=" + antalBåthorn +
+                ", gikDenIgennemSyn=" + gikDenIgennemSyn +
+                '}';
+    }
 }
