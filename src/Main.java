@@ -50,20 +50,20 @@ public class Main {
         System.out.println();
         System.out.println();
         System.out.println("-----Jenny's amazing car!-----");
-        BilBil jennyBil = new BilBil( "Jenny's Øse", 500, true );
+        BilBil jennyBil = new BilBil( RandomGen.randomString(), RandomGen.randomInt(), RandomGen.randomBoolean() );
 
         printObject( jennyBil );
 
         System.out.println();
         System.out.println("-----Tau's amazing horse!-----");
-        Hest tauHest = new Hest( "Brun", 100 );
+        Hest tauHest = new Hest( RandomGen.randomString(), RandomGen.randomInt() );
 
         printObject( tauHest );
 
         System.out.println();
         System.out.println("-----Steen's amazing furniture!-----");
 
-        Furniture steenFurniture = new Furniture();
+        Furniture steenFurniture = new Furniture(RandomGen.randomInt(), RandomGen.randomString(),RandomGen.randomBoolean(),RandomGen.randomString(),RandomGen.randomString(),RandomGen.randomString(),RandomGen.randomString());
 
         printObject( steenFurniture );
 
