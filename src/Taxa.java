@@ -4,5 +4,7 @@ public class Taxa {
 
     int kilometerPris;
 
+    int antalKilometer;
+
 
 }
