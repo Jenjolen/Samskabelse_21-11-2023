@@ -25,4 +25,4 @@ public class BilBil {
                 ", gikDenIgennemSyn=" + gikDenIgennemSyn +
                 '}';
     }
-}
+} //class

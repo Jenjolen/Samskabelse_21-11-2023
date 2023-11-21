@@ -8,4 +8,4 @@ public class Vogn {
         this.farve = farve;
         this.størrelse = størrelse;
     }
-}
+} //class

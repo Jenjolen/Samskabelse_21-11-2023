@@ -8,4 +8,4 @@ public class Hest {
         this.farve = farve;
         this.størrelse = størrelse;
     }
-}
+} //class
