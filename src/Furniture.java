@@ -27,5 +27,16 @@ public class Furniture {
         this.nickname = nickname;
     }
 
-
+    @Override
+    public String toString() {
+        return "Furniture = { " +
+                "       amountOfLegs=" + amountOfLegs +
+                ",\n        material = '" + material + '\'' +
+                ",\n        isUsable = " + isUsable +
+                ",\n        brand = '" + brand + '\'' +
+                ",\n        type = '" + type + '\'' +
+                ",\n        model = '" + model + '\'' +
+                ",\n        nickname = '" + nickname + '\'' +
+                " }";
+    }
 }
