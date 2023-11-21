@@ -30,7 +30,7 @@ public class Furniture {
     @Override
     public String toString() {
         return "Furniture = { " +
-                "\n       amountOfLegs=" + this.amountOfLegs +
+                "\n       amountOfLegs = " + this.amountOfLegs +
                 ",\n       material = '" + this.material + '\'' +
                 ",\n       isUsable = " + this.isUsable +
                 ",\n       brand = '" + this.brand + '\'' +
