@@ -30,13 +30,13 @@ public class Furniture {
     @Override
     public String toString() {
         return "Furniture = { " +
-                "       amountOfLegs=" + amountOfLegs +
-                ",\n        material = '" + material + '\'' +
-                ",\n        isUsable = " + isUsable +
-                ",\n        brand = '" + brand + '\'' +
-                ",\n        type = '" + type + '\'' +
-                ",\n        model = '" + model + '\'' +
-                ",\n        nickname = '" + nickname + '\'' +
+                "       amountOfLegs=" + this.amountOfLegs +
+                ",\n        material = '" + this.material + '\'' +
+                ",\n        isUsable = " + this.isUsable +
+                ",\n        brand = '" + this.brand + '\'' +
+                ",\n        type = '" + this.type + '\'' +
+                ",\n        model = '" + this.model + '\'' +
+                ",\n        nickname = '" + this.nickname + '\'' +
                 " }";
     }
 }
