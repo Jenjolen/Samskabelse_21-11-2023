@@ -8,4 +8,12 @@ public class Vogn {
         this.farve = farve;
         this.størrelse = størrelse;
     }
-} //class
+
+    @Override
+    public String toString() {
+        return "Vogn{" +
+                "farve='" + farve + '\'' +
+                ", størrelse=" + størrelse +
+                '}';
+    }
+}

@@ -8,4 +8,12 @@ public class Hest {
         this.farve = farve;
         this.størrelse = størrelse;
     }
-} //class
+
+    @Override
+    public String toString() {
+        return "Hest{" +
+                "farve='" + farve + '\'' +
+                ", størrelse=" + størrelse +
+                '}';
+    }
+}
