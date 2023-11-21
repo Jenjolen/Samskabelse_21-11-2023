@@ -31,12 +31,12 @@ public class Furniture {
     public String toString() {
         return "Furniture = { " +
                 "\n       amountOfLegs=" + this.amountOfLegs +
-                ",\n        material = '" + this.material + '\'' +
-                ",\n        isUsable = " + this.isUsable +
-                ",\n        brand = '" + this.brand + '\'' +
-                ",\n        type = '" + this.type + '\'' +
-                ",\n        model = '" + this.model + '\'' +
-                ",\n        nickname = '" + this.nickname + '\'' +
+                ",\n       material = '" + this.material + '\'' +
+                ",\n       isUsable = " + this.isUsable +
+                ",\n       brand = '" + this.brand + '\'' +
+                ",\n       type = '" + this.type + '\'' +
+                ",\n       model = '" + this.model + '\'' +
+                ",\n       nickname = '" + this.nickname + '\'' +
                 " }";
     }
 } //class
