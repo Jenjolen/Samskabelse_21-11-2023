@@ -10,6 +10,9 @@ public class BilBil {
     boolean gikDenIgennemSyn;
 
 
-
-
+    public BilBil(String navn, int antalBåthorn, boolean gikDenIgennemSyn) {
+        this.navn = navn;
+        this.antalBåthorn = antalBåthorn;
+        this.gikDenIgennemSyn = gikDenIgennemSyn;
+    }
 }
