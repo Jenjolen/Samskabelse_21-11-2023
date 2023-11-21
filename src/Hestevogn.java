@@ -8,4 +8,12 @@ public class Hestevogn {
         this.hest = hest;
         this.vogn = vogn;
     }
+
+    @Override
+    public String toString() {
+        return "Hestevogn{" +
+                "hest=" + hest +
+                ", vogn=" + vogn +
+                '}';
+    }
 }
