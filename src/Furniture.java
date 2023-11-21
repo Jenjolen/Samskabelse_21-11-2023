@@ -17,7 +17,15 @@ public class Furniture {
         this.nickname = "The Table(TM)";
     }
 
-
+    public Furniture( int amountOfLegs, String material, boolean isUsable, String brand, String type, String model, String nickname ) {
+        this.amountOfLegs = amountOfLegs;
+        this.material = material;
+        this.isUsable = isUsable;
+        this.brand = brand;
+        this.type = type;
+        this.model = model;
+        this.nickname = nickname;
+    }
 
 
 }
