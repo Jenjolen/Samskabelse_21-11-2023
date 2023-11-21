@@ -16,4 +16,4 @@ public class Hestevogn {
                 ", vogn=" + vogn +
                 '}';
     }
-} //class
+}
