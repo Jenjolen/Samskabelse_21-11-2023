@@ -37,6 +37,6 @@ public class Furniture {
                 ",\n       type = '" + this.type + '\'' +
                 ",\n       model = '" + this.model + '\'' +
                 ",\n       nickname = '" + this.nickname + '\'' +
-                " }";
+                "\n};";
     }
 } //class
