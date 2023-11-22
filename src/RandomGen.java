@@ -3,26 +3,17 @@ import java.util.Random;
 
 public class RandomGen {
 
-    private static final String string0 = "Mormors lort";
-    private static final String string1 = "Fundet i vejkanten";
-    private static final String string2 = "Skråt";
-    private static final String string3 = "Efterladt";
-    private static final String string4 = "Nyeste bling bling";
-    private static final String string5 = "Dyrt i drift";
-    private static final String string6 = "Ingen ved det";
-    private static final String string7 = "Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh";
-
     private static ArrayList< String > strings = new ArrayList<>();
 
     static {
-        strings.add( string0 );
-        strings.add( string1 );
-        strings.add( string2 );
-        strings.add( string3 );
-        strings.add( string4 );
-        strings.add( string5 );
-        strings.add( string6 );
-        strings.add( string7 );
+        strings.add( "Mormors lort" );
+        strings.add( "Fundet i vejkanten" );
+        strings.add( "Skråt" );
+        strings.add( "Efterladt" );
+        strings.add( "Nyeste bling bling" );
+        strings.add( "Dyrt i drift" );
+        strings.add( "Ingen ved det" );
+        strings.add( "Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh" );
     }
 
     public static String randomString() {
