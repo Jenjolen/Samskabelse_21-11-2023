@@ -39,10 +39,4 @@ public class Furniture {
                 ",\n       nickname = '" + this.nickname + '\'' +
                 "\n};";
     }
-
-    //Test 1
-
-    //Test 2
-
-    //Test 3
 } //class
